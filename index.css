@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 16px 16px;
+}
+
+
+.todolist {
+    margin-top: 50px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.jobs, .doing, .done {
+    border: 1px solid #000;
+    width: 400px;
+}
+
+.title {
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.check {
+    float: right;
+    margin-right: 8px;
+}
+
+li {
+    margin: 16px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #ccc;
+}
