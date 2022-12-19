@@ -1,5 +1,5 @@
+window.addEventListener('DOMContentLoaded', (event) => {
 // job: status -> todo, doing, done
-
 let jobs = [
   {
     name: "Quét Nhà",
@@ -113,3 +113,5 @@ function removeAllChildNodes(parent) {
 }
 
 addEventItem();
+
+});
